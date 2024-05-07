@@ -1,0 +1,80 @@
+@charset "UTF-8";
+html,body {
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+	height: 100%;
+}
+
+/* Imposta il container principale come flex container */
+#mainContainer {
+	display: flex;
+	flex-direction: row;
+	float: right;
+}
+
+/* Stile per il menu */
+#menu {
+	width: 20%; /* 20% dello spazio orizzontale */
+	background: #333;
+	color: #fff;
+	padding: 15px;
+}
+
+/* Stile per il corpo principale */
+#corpoPrincipale {
+	width: 80%; /* 80% dello spazio orizzontale */
+	padding: 25px;
+	flex: 1;
+	 
+}
+
+/* Stile per il corpo principale */
+#login {
+	width: 40%; /* 80% dello spazio orizzontale */
+	padding: 25px;
+	flex: 1;
+}
+
+#header {
+	background: #f4f4f4;
+	padding: 20px;
+	text-align: center;
+}
+
+#footer {
+    background: #f4f4f4; /* Scegli un colore a tuo piacimento */
+    text-align: center;
+    padding: 10px;
+    margin-top: auto; /* Questo assicura che il footer rimanga in basso */
+}
+
+li {
+	color: white;
+}
+
+a {
+	color: white;
+}
+
+/* Stile personalizzato per la tabella */
+.table-custom {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+/* Stile per le celle della tabella */
+.table-custom th, .table-custom td {
+    border: 1px solid black;
+    padding: 8px;
+}
+
+/* Stile personalizzato per le intestazioni */
+.header-custom {
+    background-color: #4CAF50; /* Scegli il colore che preferisci */
+    color: white;
+}
+
